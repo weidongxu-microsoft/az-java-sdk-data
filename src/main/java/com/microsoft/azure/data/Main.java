@@ -12,7 +12,7 @@ public class Main {
     public static void main(String args[]) {
 
         BlobContainerClient containerClient = new BlobContainerClientBuilder()
-                .endpoint("sa2weidxu.blob.core.windows.net")
+                .endpoint("https://sa2weidxu.blob.core.windows.net")
                 .containerName("container1")
                 .credential(new ManagedIdentityCredentialBuilder().build())
                 .buildClient();
