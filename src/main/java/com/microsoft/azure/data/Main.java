@@ -18,6 +18,8 @@ public class Main {
         runVault();
 
 //        runStorage();
+
+        System.exit(0);
     }
 
     private static void runVault() {
